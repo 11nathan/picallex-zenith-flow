@@ -49,6 +49,7 @@ const translations = {
     "contact.float": "Contact Us",
     "contact.success": "Message Sent",
     "contact.successMessage": "We'll get back to you as soon as possible.",
+    "demo.trustedBy": "Trusted by growing businesses everywhere",
   },
   es: {
     "hero.title": "Transforma Tus Relaciones con Clientes usando Picallex CRM",
@@ -89,6 +90,7 @@ const translations = {
     "contact.float": "Contáctanos",
     "contact.success": "Mensaje Enviado",
     "contact.successMessage": "Nos pondremos en contacto contigo lo antes posible.",
+    "demo.trustedBy": "Empresas en crecimiento confían en nosotros",
   }
 };
 
