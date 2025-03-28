@@ -30,7 +30,9 @@ const Index = () => {
         {/* Main Content */}
         <main className="pt-16">
           <HeroSection />
-          <FeaturesSection />
+          <div id="features-section">
+            <FeaturesSection />
+          </div>
           <TestimonialsSection />
           <DemoSection />
           <FinalCTASection />
