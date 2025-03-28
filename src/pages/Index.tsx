@@ -14,9 +14,9 @@ const Index = () => {
   return (
     <LanguageProvider>
       <div className="min-h-screen">
-        {/* Header - Just logo and language toggle */}
+        {/* Header - Just logo and language toggle with shadow effect */}
         <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
-          <div className="container mx-auto flex justify-between items-center py-4 px-4">
+          <div className="container mx-auto flex justify-between items-center py-5 px-4">
             <Logo />
             <LanguageToggle />
           </div>
@@ -28,20 +28,13 @@ const Index = () => {
         </div>
 
         {/* Main Content */}
-        <main>
+        <main className="pt-16">
           <HeroSection />
           <FeaturesSection />
           <TestimonialsSection />
           <PricingSection />
           <FinalCTASection />
         </main>
-
-        {/* Footer */}
-        <footer className="bg-gray-100 py-8">
-          <div className="container mx-auto px-4 text-center text-gray-500 text-sm">
-            <p>© 2023 Picallex. All rights reserved.</p>
-          </div>
-        </footer>
       </div>
     </LanguageProvider>
   );
